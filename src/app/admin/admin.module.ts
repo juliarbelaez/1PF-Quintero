@@ -10,6 +10,7 @@ import { ListaestudiantesModule } from '../pages/listaestudiantes/listaestudiant
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDividerModule } from '@angular/material/divider';
+import { DialogoLoginModule } from './dialogo-login/dialogo-login.module';
 
 @NgModule({
   declarations: [AdminComponent],
@@ -24,6 +25,7 @@ import { MatDividerModule } from '@angular/material/divider';
     ListaestudiantesModule,
     MatFormFieldModule,
     MatDividerModule,
+    DialogoLoginModule,
   ],
   exports: [AdminComponent],
 })
